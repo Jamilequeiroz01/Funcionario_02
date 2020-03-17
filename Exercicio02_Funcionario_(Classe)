@@ -1,0 +1,16 @@
+public class Funcionario {  //Atributos da classe
+String nome;
+double SalarioBruto;
+double Imposto;
+double SalarioLiquido;
+double Descontos;
+
+
+void SalarioLiquido(double SalarioBruto, double Descontos) { //Método sem retorno
+	 SalarioLiquido = SalarioBruto * Descontos/100;  //calculo
+}
+void AumentaSalario(double AumentaSalario, double SalarioBruto) { //Método sem retorno
+	      SalarioLiquido = AumentaSalario*SalarioBruto/100; //calculo
+}
+}
+
