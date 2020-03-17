@@ -1,0 +1,24 @@
+public class FuncionarioPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Funcionario Pedro = new Funcionario();  //Instanciando
+		Pedro.SalarioLiquido(1500, 30); //Calculando o salario liquido
+		
+		System.out.println("Pedro seu salário atual é de: "+ Pedro.SalarioLiquido); //Apresentando salario atual
+		
+		Pedro.AumentaSalario(200,1500); //Calculando salario com aumento
+		System.out.println("Pedro seu salário após o aumento é de: "+Pedro.SalarioLiquido); //Apresentando salario depois do aumento
+		
+		
+		Funcionario Vagner  = new Funcionario(); //Instanciando
+		Vagner.SalarioLiquido(2400, 40); //Calculando o salario liquido
+		
+		System.out.println("Vagner seu salário atual é de: "+ Vagner.SalarioLiquido); //Apresentando salario atual
+		
+		Vagner.AumentaSalario(250, 2400);
+		System.out.println("Vagner seu salário após o aumento é de: "+Vagner.SalarioLiquido);//Apresentando salario depois do aumento
+	
+	}
+
+}
